@@ -1,11 +1,11 @@
 // Data for all 12 pictures and their answers
 const quizData = [
-  { filename: "Image/TV1Q1234.jpg", answer: "sunflower" },
-  { filename: "Image/TV1Q1235.jpg", answer: "rose" },
-  { filename: "Image/TV1Q1236.jpg", answer: "tulip" },
-  { filename: "Image/TV1Q1237.jpg", answer: "daisy" },
-  { filename: "Image/TV1Q1238.jpg", answer: "lily" },
-  { filename: "Image/TV1Q1239.jpg", answer: "orchid" },
+  { filename: "Image/TV1Q1.jpg", answer: "Top Of The Pops" },
+  { filename: "Image/TV1Q2.jpg", answer: "Holby City" },
+  { filename: "Image/TV1Q3.jpg", answer: "Panorama" },
+  { filename: "Image/TV1Q4.jpg", answer: "Crossroads" },
+  { filename: "Image/TV1Q5.jpg", answer: "Question Time" },
+  { filename: "Image/TV1Q6.jpg", answer: "Eggheads" },
   { filename: "Image/TV1Q1240.jpg", answer: "marigold" },
   { filename: "Image/TV1Q1241.jpg", answer: "lavender" },
   { filename: "Image/TV1Q1242.jpg", answer: "jasmine" },
