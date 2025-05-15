@@ -28,11 +28,18 @@ quizData.forEach((item, index) => {
   container.appendChild(div);
 });
 
+function normalize(answer) {
+  return answer
+    .toLowerCase()
+    .replace(/^the\s+/, "")  // remove 'the' at the start
+    .trim();
+}
+
 function checkAnswer(index) {
   const input = document.getElementById(`input-${index}`);
   const feedback = document.getElementById(`feedback-${index}`);
-  const userAnswer = input.value.trim().toLowerCase();
-  const correctAnswer = quizData[index].answer.toLowerCase();
+  const userAnswer = normalize(input.value);
+  const correctAnswer = normalize(quizData[index].answer);
 
   if (userAnswer === correctAnswer) {
     feedback.textContent = "✅ Correct!";
