@@ -6,12 +6,12 @@ const quizData = [
   { filename: "Image/TV1Q4.jpg", answer: "Crossroads" },
   { filename: "Image/TV1Q5.jpg", answer: "Question Time" },
   { filename: "Image/TV1Q6.jpg", answer: "Eggheads" },
-  { filename: "Image/TV1Q1240.jpg", answer: "marigold" },
-  { filename: "Image/TV1Q1241.jpg", answer: "lavender" },
-  { filename: "Image/TV1Q1242.jpg", answer: "jasmine" },
-  { filename: "Image/TV1Q1243.jpg", answer: "peony" },
-  { filename: "Image/TV1Q1244.jpg", answer: "violet" },
-  { filename: "Image/TV1Q1245.jpg", answer: "daffodil" },
+  { filename: "Image/TV1Q7.jpg", answer: "The Wombles" },
+  { filename: "Image/TV1Q8.jpg", answer: "QI" },
+  { filename: "Image/TV1Q9.jpg", answer: "Peppa Pig" },
+  { filename: "Image/TV1Q10.jpg", answer: "Ted Lasso" },
+  { filename: "Image/TV1Q11.jpg", answer: "Sherlock" },
+  { filename: "Image/TV1Q12.jpg", answer: "Homes Under The Hammer" },
 ];
 
 const container = document.querySelector(".grid-container");
